@@ -1,0 +1,129 @@
+
+#divtextlab{
+    background-color: aqua;
+}
+
+#divlistalibro1{
+    height: 350px;
+ 
+}
+#divlistalibro2{
+    height: 350px;
+    width: 200px;
+    float: right;
+    background-color:rgb(186, 255, 159);
+    
+    margin:-573.3px;
+    margin-right: 650px;
+ 
+}
+#divlistalibro3{
+    height: 350px;
+
+ 
+}
+#listaslibros{
+    width: 200px;
+    height: 330px;
+}
+#listabusca2{
+    width: 200px;
+    height: 350px;
+    background-color:rgb(186, 255, 159);
+}
+
+#listabusca3{
+    width: 200px;
+    height: 350px;
+}
+
+/*#txtid input{
+    width: 100px;
+   border-right: 20ch;
+   float: centeru8io;
+
+}
+
+#txtautor{
+    width: 100px;
+    border-right: 20ch;
+}
+#txttitulo{
+    width: 100px;
+    border-right: 20ch;
+}
+#txtedicion{
+    width: 100px;
+    border-right: 20ch;
+}
+#txtanio{
+    width: 100px;
+    border-right: 20ch;
+}*/
+#movertext1{
+    width: 20%;
+     height: 20px;
+     
+      
+    /**/
+    /*margin:auto;
+    margin-left: 80px;
+     border-left: 2rem;*/
+    
+}
+
+#movertext2{
+    width: 20%;
+     height: 20px;
+      
+   
+    
+}
+#movertext3{
+    width: 20%;
+     height: 20px;
+      
+   
+    
+}
+#movertext4{
+    width: 18%;
+     height: 20px;
+      
+   
+    
+}
+#movertext5{
+    width: 20%;
+     height: 20px;
+      
+  
+    
+}
+#cuerpo{
+    background-image: url("https://i.pinimg.com/originals/2f/ed/d0/2fedd0a7e0140d4f773b66718887f272.gif");
+   
+}
+
+#divparabuscar{
+    /*float: left;
+margin: -15%;
+    
+    margin-left: -60%;background-color: chartreuse;
+    width: 26.5%;*/
+    /*width: 26.5%;
+    height: 98%;
+    margin-top: 2px; 
+    background-color:#FF0D66;
+    float: left;*/
+
+    float: right;
+    width: 26%;
+    height: -65%;
+    background-color:#FF9FF2;
+    background-color: rgba(255, 159, 242, 0.50);
+    margin:-233.3px;
+    margin-right: 550px;
+    
+    
+}

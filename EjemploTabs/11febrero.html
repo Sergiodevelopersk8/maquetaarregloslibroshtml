@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+   
+    <link type="text/css" href="CSS/diseno11feb.css" rel="stylesheet">
+    <title>Libros</title>
+    <script src="js1/operaciones11feb.js"></script>
+    <script type="text/javascript">
+        $(document).ready
+        (
+            function()
+            {
+                $('#btn1').hover
+                (
+                    function()
+                    {
+                        $(this).fadeOut(1000).fadeIn(1000);
+                       
+                       
+                    }
+                );
+
+                $('#btn2').hover
+                (
+                    function()
+                    {
+                        $(this).fadeOut(1000).fadeIn(1000);
+                        
+                       
+                    }
+                );
+
+                  $('#btn3').hover
+                (
+                    function()
+                    {
+                        $(this).fadeOut(1000).fadeIn(1000);
+                        
+                       
+                    }
+                );
+                $('#btn4').hover
+                (
+                    function()
+                    {
+                        $(this).fadeOut(1000).fadeIn(1000);
+                        
+                   
+                    }
+                );
+                $('#btn5').hover
+                (
+                    function()
+                    {
+                        $(this).fadeOut(1000).fadeIn(1000);
+                        
+                        
+                    }
+                );
+                $('#btn6').hover
+                (
+                    function()
+                    {
+                        $(this).fadeOut(1000).fadeIn(1000);
+                        
+                        
+                    }
+                );
+
+               
+
+                $(':input[type=text]').focus
+                (
+                    function()
+                    {
+                        $(this).val('');
+                    }
+                );
+                $('#btn1').click
+                (
+                    function()
+                    {
+                        $(':input[type=text]').val('');
+                        $('#btn1').css ('background-color','red')
+                    }
+                );
+                $('#btn2').click
+                (
+                    function()
+                    {
+                        
+                        $('#btn2').css ('background-color','blue')
+                    }
+                );
+                $('#btn3').click
+                (
+                    function()
+                    {
+                       
+                        $('#btn3').css ('background-color','green')
+                    }
+                );
+                $('#btn4').click
+                (
+                    function()
+                    {
+                        
+                        $('#btn4').css ('background-color','aquamarine')
+                    }
+                );
+                $('#btn5').click
+                (
+                    function()
+                    {
+                        
+                        $('#btn5').css ('background-color','pink')
+                    }
+                );
+                $('#btn6').click
+                (
+                    function()
+                    {
+                        
+                        $('#btn6').css ('background-color','brown')
+                    }
+                );
+
+
+                $(':input[type=text]').focusout
+                (
+                    function ()
+                    {
+                        $('#div_texto_oculto').hide();
+                        $('#span_texto').text('');
+                    }
+                );
+
+                $(':input[type=text]').keypress
+                (
+                    function()
+                    {
+                        $('#div_texto_oculto').slideDown('slow');
+                    }
+                )
+                .keyup
+                (
+                        function()
+                        {
+                            $('#span_texto').text($(this).attr('value'));
+                        }
+                );
+            }
+        );
+</script>
+</head>
+<body id="cuerpo">
+    <div id="divtextlab"> </div>
+
+        <br>
+            <label>id</label> <br><input type="text" id="txtid" ><br>
+           <label>Autor </label><br><input type="text" id="txtautor"><br>
+            <label>Titulo </label><br><input type="text" id="txttitulo"></div><br>
+           <label>Edicion </label><br><input type="text" id="txtedicion"></div><br>
+            <label>Año </label><br><input type="text" id="txtanio"></div><br> <br>
+            
+            <div id="divpaaraagreg"> <button id="btn1" onclick="agregar()">Insertar</button></div>
+            <div id="divparamodi">  <button id="btn2"onclick="modificar()">Modificar</button> </div>
+                   
+             <div id="divparabuscar" ><label>Buscar</label><input id="buscaa" requiered="requiered" type="text" >  <button id="btn3" onclick="buscarmetodo2()">Buscar</button> <button id="btn4" onclick="libroexiste()">existe</button></div>
+             <div id="div_texto_oculto" style="display:none">tambien puedes modificar el libro solo poniendo el id en el buscador y vuelves a ingresar los valores nuevos y presionas el boton de modificar</div>
+          <div id ="divbtnelim"> <button id="btn5" onclick="eliminardelist()">Eliminar por selección</button></div> <br>
+            <div id ="divbtbusqeli">  <button id="btn6" onclick="eliminarporbusqueda()">Eliminarbusqueda</button></div>
+            <div id ="divbtnlimbusq"> <button id="btn7" onclick="limpiarbusq()">limpiar busqueda</button></div>
+   
+    
+      
+      </div> 
+          <div id="listastodas">
+
+            
+                        
+                 
+               
+                        <select id="listabusca2" multiple width="1000PX">
+       
+                            </select>
+                
+                        <select id="listabusca3" multiple width="1000PX">
+                           
+                            </select>
+                            <select id="listaslibros" multiple width="100PX">
+
+                            </select> 
+                
+                            
+            
+          </div>
+    
+   
+    
+   
+    
+                                <!--<button onclick="eliminardelist2()">Eliminar2</button>-->
+    
+    
+  
+    
+    
+    
+   
+
+ <script src="js1/operaciones11feb.js"></script>
+   
+
+            <!-- <option>Id,Autor,Titulo,Edicion,Año</option>-->
+       <!--onload="myOnload()"-->
+      <!-- <button id="bagregar">primero</button>-->
+    </body>
+ </html>
+
+

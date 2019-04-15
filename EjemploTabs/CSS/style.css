@@ -1,0 +1,425 @@
+body{
+    background-color: #fff;
+}
+
+/*Clases*/
+
+.divBase
+{
+    background-color:white;
+    width: 950px;
+    margin: auto;
+}
+
+.Menu{
+    font-family: 'Trebuchet MS';
+    font-size: 22px;
+}
+
+.Contenido{
+    background-color: green;
+    width: 950px;    
+    margin: auto;
+}
+
+.Datos{
+    background-color:white;
+    width: 950px;
+    margin: auto;
+}
+
+.Reservados{
+    background-color: black;
+    width: 950px;
+    margin: auto;
+}
+
+/*Div*/
+
+#divEncabezado
+{
+    height: 200px;
+    background-color:white;
+}
+
+#divCuerpo{
+    height: 1220px;
+    background-color: rgb(190, 201, 221);
+}
+
+#divDatos{
+    height: 400px;
+    background-color:white;
+}
+
+#divDerechos{
+    height: 50px;
+
+}
+
+#divUbicacion{
+    width: 50%;
+    height: 97%;
+    background-color: #fff;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#Ubicar{
+    width: 99%;
+    height: 5%;
+    background-color: #fff;
+    float: left;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mapa{
+    width: 100%;
+    height: 95%;
+    background-color: #fff;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+#divContactos{
+    width: 48%;
+    height: 97%;
+    background-color:#fff;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#divNumero{
+    width: 97%;
+    height: 45%;
+    background-color: green;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#divRedes{
+    width: 97%;
+    height: 50%;
+    background-color: #fff;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#divTwitter{
+    width: 30%;
+    height: 80%;
+    background-color: #fff;;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#divFacebook{
+    width: 30%;
+    height: 80%;
+    background-color: #fff;;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#divInstagram{
+    width: 30%;
+    height: 80%;
+    background-color: #fff;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#divMexico{
+    width: 5%;
+    height: 50%;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+}
+
+#divRes{
+    width: 90%;
+    height: 50%;
+    background-color:black;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#divSliderInformacion{
+    width: 98%;
+    height: 50%;
+    background-color:green;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+#divSlider{
+    width: 75%;
+    height: 99%;
+    background-color:white;
+    float: left;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+#divInformacion{
+    width: 24.5%;
+    height: 99%;
+    background-color:green;
+    float: right;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+#divLogo
+{
+    width: 20%;
+    height: 80%;
+    background-color:white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#divBanner
+{
+    width: 70%;
+    height: 20%;
+    background-color:white;
+    float: left;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+#divMenu{
+    width: 90%;
+    height: 200%;
+    margin: auto;
+    margin-top: 1px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+#divFrase{
+    width: 90%;
+    height: 200%;
+    margin: auto;
+    margin-top: 3px;
+    margin-right: 5px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+/*Acciones a los Tabs*/
+#tabs{
+    min-width: 320px;/*Minimo de anchura*/
+    max-width: 800px;/*Maximo de anchura*/
+    padding: 50px;
+    margin: 0 auto;
+    background-color: rgba(0, 51, 128, 0.404);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,
+}
+
+/*Texto*/
+h2{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+}
+
+h4{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/*Imagenes*/
+
+#imgSlider
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+#imgSlim
+{
+    width: 100%;
+    height: 40%;
+    margin-top: 40px;
+}
+
+#imgRedes
+{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/*Animacion de Slider*/
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+
+@keyframes cambio{
+    0%{ margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25%{ margin-left: -100%;}
+    45%{ margin-left: -100%;}
+
+    50%{ margin-left: -200%;}
+    70%{ margin-left: -200%;}
+
+    75%{ margin-left: -300%;}
+    100%{ margin-left: -300%;}
+
+}
+
+
+/*Botones*/
+#boton{
+    width: 120px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 22px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    margin-left: 0px;
+}
+
+#boton:hover{
+    color: rgb(179, 178, 178);
+    cursor: pointer;
+}
+
+/*Section*/
+section{
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*Input*/
+input{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(44, 44, 44);
+    border: 1px solid transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label:hover{
+    color: rgb(196, 195, 195);
+    cursor: pointer;
+}
+
+input:checked + label{
+    color: #fff;
+    border: 1px solid #ddd;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #contenido1,
+#tab2:checked ~ #contenido2,
+#tab3:checked ~ #contenido3,
+#tab4:checked ~ #contenido4,
+#tab5:checked ~ #contenido5
+{
+    display: block;
+}
+
+section > label + br + input{
+    display: block;
+}
+
+br + input{
+    display: block;
+}
+
+section > input{
+    display: block;
+}
+
+.acciones{
+    width: 120px;
+    height: 20px;
+    cursor: pointer;
+}
+
+section > label{
+    color: #fff;
+    cursor: text;
+}
+
+section > input + br + h3 + ul > li
+{
+    list-style-position: initial;
+}

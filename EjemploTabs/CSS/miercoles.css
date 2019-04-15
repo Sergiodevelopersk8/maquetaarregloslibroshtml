@@ -1,0 +1,434 @@
+.base
+{
+  
+    background-color: rgba(204, 0, 255, 0.3);
+    width: 900px;
+    margin: auto;
+}
+
+    
+
+#encabezado
+{
+    height: 200px;
+    border: solid black;
+}
+#contenido
+{
+    height: 650px;
+    border: solid black;
+    margin: auto;
+}
+#logoesquina{
+    width: 30%;
+    height: 50%;
+    margin-top: 6px; 
+    background-color:rgba(204, 0, 255, 0.1);
+    float: left;
+
+}
+#logo1{
+    width: 100%;
+    height: 98%;
+    margin-top: 2px; 
+    background-color:#FF0D66;
+    float: left;
+
+}
+#loguis{
+    width: 100%;
+    height: 100%;
+}
+#pie
+{
+    height: 480px;
+}
+#centro_encabezado
+{
+    width: 80%;
+    height: 90%;
+    background-color: #8C5839;
+    margin: auto;
+    margin-top: 12px;
+}
+#extra
+{
+    width: 80%;
+    height: 70;
+    margin: auto;
+    margin-top: 12px;
+    background-color: #000000;
+}
+#logo
+{
+    width: 25%;
+    height: 90%;
+    background-color: rgb(255, 205, 145);
+    margin-top: 20px;
+    float: left;
+}
+#menu
+{
+    width: 67%;
+    height: 20%;
+    margin-right: 5px;
+    float: right;
+    background-color: #0925E8;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#confra{
+    width: 67%;
+    height: 50%;
+    
+    background-color:rgba(204, 0, 255, 0.014);
+    margin-right:5px;
+
+    float :right;
+    margin-top: 1.2em;
+}
+#frase{
+    width: 100%;
+    height: 50%;
+    background-color:#00ACEB;
+    margin-top: 3.6px;
+}
+
+#patin{
+   float: right;}
+
+#menu ul
+{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#hmenu > li
+{
+    display: inline-block;
+}
+#hmenu > li > a
+{
+    display: block;
+    padding: 10px 5px;
+    width: 90px;
+    text-decoration: none;
+    color: black;
+}
+.sub-menu li a
+{
+    background-color: #0925E8;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 5px;
+    width: 130px;
+}
+.sub-menu li a:hover
+{
+    background-color: rgb(22, 115, 202);
+    color: white;
+}
+.sub-menu ul a:hover
+{
+    background-color: rgb(22, 115, 202);
+    color: white;
+}
+li:hover ul
+{
+    display: block;
+    background-color: rgb(22, 115, 202);
+    color: white;
+}
+li ul
+{
+    position: absolute;
+    display: none;
+}
+.letragrande
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+#slider
+{
+    float:left;
+    width: 59%;
+    height: 55%;
+    background-color:rgba(204, 0, 255, 0.1);
+    margin-left: 2px;
+    margin-top: 1.9%
+   
+   
+}
+#lista1
+{
+    list-style-type: none;
+}
+#lista1 li
+{
+    display: inline;
+}
+
+#cuerpo
+{
+    background-image: url("https://i.pinimg.com/originals/2f/ed/d0/2fedd0a7e0140d4f773b66718887f272.gif");
+   
+   
+}
+#categorias
+{
+    float: right;
+    width: 38%;
+    height: 55%;
+    background-color:#FF9FF2;
+    background-color: rgba(255, 159, 242, 0.50);
+    margin:0.1px;
+    margin-right: 4px;
+    
+   
+   
+}
+#categos
+{
+    width: 15%;
+    height: 15%;
+    background-color: #260B10;
+    margin-top: none;
+    margin: none;
+}
+.imagenn
+{
+    margin-left: 15px;
+    margin: #260B10;
+}
+.sliderr
+{
+    width:100%;
+    height: 60%;
+	
+	
+}
+
+
+.sliderr img
+{
+    width:97.5%;
+    height: 99.8%;
+    margin-right: 60%;
+    
+    
+}
+
+.noticia
+{
+    width: 98%;
+    float: right;
+    height: 40%;
+    background-color:rgba(204, 0, 255, 0.048);
+
+    margin: 6px;
+ 
+}
+#pie
+{
+    height: 350px;
+    border: solid black;
+}
+#promo
+{
+    width: 90%;
+    height: 47%;
+    background-color: #8C5839;
+    margin: auto;
+    float: left;
+}
+#ubicacion
+{
+    width: 56%;
+    height: 61%;
+    background-color:blueviolet;
+    float: left;
+    margin-left: 10px
+}
+#map{
+    width: 56%;
+    height: 61%;
+     
+    float: left;
+    background-color:blueviolet;
+}
+#contacto
+{
+    width: 40%;
+    height: 30%;
+    
+    background-color: rgba(92, 245, 194, 0.384);
+    float: right;
+    margin-right: 6.3px;
+}
+#infoglo
+{
+    width: 90%;
+    height: 40%;
+    background-color: #8C5839;
+    margin: auto;
+}
+#infoem
+{
+    width: 20%;
+    height: 100%;
+    background-color:green;
+    float: right;
+}
+#redes
+{
+    width: 17%;
+    height: 100%;
+    background-color: pink;
+    float: right;
+}
+.titulo
+{
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.texto
+{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+}
+.parrafo
+{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+#promo3
+{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    margin: auto;
+}
+#Redes
+{
+    width: 30%;
+    height: 30%;
+    background-color:rgba(204, 0, 255, 0.3);
+    margin: 5.5px;
+    float: right;
+}
+
+#copy
+{
+    width: 98.3%;
+    height: 30%;
+    background-color: black;
+    margin: 7px;
+    float: right;
+}
+
+
+
+p
+{
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+#tabs
+{
+    
+    
+    height: 61%;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: rgba(204, 0, 255, 0.048);
+}
+
+section
+{
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid rgba(204, 0, 255, 0.3);;
+}
+
+input
+{
+    display: none;
+}
+
+label
+{
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+label:hover
+{
+    color: #888;
+    cursor: pointer;
+}
+
+
+input:checked + label {
+
+color:#FF499C;
+
+BORDER:1px SOLID rgba(127,12,232,0.1);
+border-top: 2px solid brown;
+border-bottom: 1px solid  rgba(127,12,232,0.1);
+
+}
+
+#tab1:checked ~ #contenido1,
+#tab2:checked ~ #contenido2,
+#tab3:checked ~ #contenido3{
+display: block;
+
+
+}
+
+#generico{
+    width: 28%;
+    height: 80%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    background-color: rgba(65,176,255,0.6);
+    
+    float: left;
+
+}
+
+#iconos{
+    width: 100%;
+    height: 100%;
+    float: none;
+}
+
+#imgtab{
+    width: 19%;
+    height:10%;
+    
+    margin: none;
+}
+
+#imgtab1{
+    width: 12%;
+    height:10%;
+    
+    margin: none;
+}
+#cop{
+color: #bbb;
+}
+

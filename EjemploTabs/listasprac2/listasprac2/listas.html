@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="css/diseno.css" rel="stylesheet">
+    <title>Libros</title>
+</head>
+<body  >
+    <div id="divtextlab">
+        <br>
+            <div id="movertext1"><label>id</label> <input type="text" id="txtid" ></div><br>
+           <div id="movertext2"> <label>Autor </label><input type="text" id="txtid"></div><br>
+           <div id="movertext3"> <label>Titulo </label><input type="text" id="txttitulo"></div><br>
+           <div id="movertext4"> <label>Edicion </label><input type="text" id="txtedicion"></div><br>
+           <div id="movertext5"> <label>Año </label><input type="text" id="txtanio"></div><br>
+          <div>
+                <button onclick="agregar()">Insertar</button>
+                <button onclick="modificar()">Modificar</button>
+          </div>  <br>
+          <div id="divparabuscar"><label>Buscar</label><input id="buscaa" requiered="requiered" type="text" id="txtbuscar">  <button onclick="buscarmetodo2()">Buscar</button></div>
+          <button onclick="eliminardelist()">Eliminar</button>
+          <button onclick="eliminarporbusqueda()">Eliminarbusqueda</button>
+   
+    
+    <button onclick="libroexiste()">existe</button>
+    <br>
+           <div id="divlistalibro1">
+                <select id="listaslibros" multiple width="1000PX"></select>
+            </div> 
+               <br>
+              
+           
+                </select>
+                    <div id="divlistalibro2">
+                            <select id="listabusca2" multiple width="1000PX">
+           
+                                </select>
+                    </div>
+                   
+                
+                        <!---<div>
+                            <table id="tablalibros"> 
+                                <thead>
+                                    <br>
+                                    <br>
+                                </thead>
+                            </table>
+                        </div>-->
+                <div id="divlistalibro3">
+                        <select id="listabusca3" multiple width="1000PX">
+                           
+                            </select>
+                </div>
+                       
+           
+           </div>
+    
+    
+   
+    
+   
+    
+    <!--<button onclick="eliminardelist2()">Eliminar2</button>-->
+    
+    
+  
+    
+    
+    
+   
+
+    <span>Lista de libros</span>
+      
+
+       
+        
+    <script src="js/operacion.js"></script>
+   
+
+    <!-- <option>Id,Autor,Titulo,Edicion,Año</option>-->
+    <!--onload="myOnload()"-->
+    <!-- <button id="bagregar">primero</button>-->
+</body>
+</html>
+

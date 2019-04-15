@@ -1,0 +1,75 @@
+body
+{
+    font: 14px/1 'Open Sans', sans-serif;
+    color: #555;
+    background-color: #eee;
+}
+
+h2
+{
+    padding: 50px,0;
+    font-weight: 400;
+    text-align: center;
+}
+
+p
+{
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+#tabs
+{
+    min-width: 320px;
+    max-width: 700px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+section
+{
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+}
+
+input
+{
+    display: none;
+}
+
+label
+{
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+label:hover
+{
+    color: #888;
+    cursor: pointer;
+}
+
+
+input:checked + label {
+
+color:blue;
+BORDER:1px SOLID #ddd;
+border-top: 2px solid orangered;
+border-bottom: 1px solid #fff
+
+}
+
+#tab1:checked ~ #contenido1,
+#tab2:checked ~ #contenido2,
+#tab3:checked ~ #contenido3{
+display: block;
+
+
+}
